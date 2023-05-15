@@ -16,4 +16,4 @@ def hello():
     return "Hello world!"
 
 if __name__ == "__main__":
-    from operations.sumatory import sumatory
+    from src.operations.sumatory import sumatory
