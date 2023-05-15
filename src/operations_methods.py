@@ -1,6 +1,6 @@
-from .operations.divide import divide
-from .operations.multiply import multiply
-from .operations.sumatory import sumatory
+from operations.divide import divide
+from operations.multiply import multiply
+from operations.sumatory import sumatory
 
 
 def sum_operation(a, b):
