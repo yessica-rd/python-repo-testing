@@ -1,4 +1,7 @@
 from src.src_message import print_src_message
+from src.operations.divide import divide
+from src.operations.multiply import multiply
+from src.operations.sumatory import sumatory
 
 
 def sum(num1, num2):
@@ -9,12 +12,6 @@ def method_2():
 
 def method_3():
     return "This is method 3"
-
-
-from src.operations.divide import divide
-from src.operations.multiply import multiply
-from src.operations.sumatory import sumatory
-
 
 def sum_operation(a, b):
     return sumatory(a, b)
