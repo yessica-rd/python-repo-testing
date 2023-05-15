@@ -1,9 +1,6 @@
 # from src.operations.divide import divide
 # from src.operations.multiply import multiply
 
-
-import os
-os.path.dirname(os.path.abspath("__file__"))
 from operations.sumatory import sumatory
 
 
