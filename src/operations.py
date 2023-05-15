@@ -1,10 +1,10 @@
 # from src.operations.divide import divide
 # from src.operations.multiply import multiply
-# from src.operations.sumatory import sumatory
+from operations.sumatory import sumatory
 
 
-# def sum_operation(a, b):
-#     return sumatory(a, b)
+def sum_operation(a, b):
+    return sumatory(a, b)
 
 # def multiply_operation(a, b):
 #     return multiply(a, b)
