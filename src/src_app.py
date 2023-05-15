@@ -8,4 +8,5 @@ def method_3():
     return "This is method 3"
 
 def message(num1, num2):
-    return f'{num1} + {num2} = {num1 + num2}'
+    result = num1 + num2
+    return f'{num1} + {num2} = {result}'
