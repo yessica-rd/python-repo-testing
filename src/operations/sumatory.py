@@ -1,7 +1,7 @@
 import os
 os.path.dirname(os.path.abspath("__file__"))
 
-# from utils.utils import print_message
+from utils.utils import print_message
 
 
 def sumatory(num1, num2):
