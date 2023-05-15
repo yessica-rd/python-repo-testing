@@ -1,7 +1,5 @@
-from pathlib import Path
-import sys
-path_root = Path(__file__).parents[2]
-sys.path.append(str(path_root))
+import os
+os.path.dirname(os.path.abspath("__file__"))
 
 from utils.utils import print_message
 

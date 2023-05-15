@@ -1,9 +1,7 @@
 # from src.operations.divide import divide
 # from src.operations.multiply import multiply
-from pathlib import Path
-import sys
-path_root = Path(__file__).parents[2]
-sys.path.append(str(path_root))
+import os
+os.path.dirname(os.path.abspath("__file__"))
 
 from operations.sumatory import sumatory
 
