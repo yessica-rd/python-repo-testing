@@ -1,7 +1,7 @@
 # from src.operations.divide import divide
 # from src.operations.multiply import multiply
 
-from operations.sumatory import sumatory
+# from operations.sumatory import sumatory
 
 
 def sum_operation(a, b):
