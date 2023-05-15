@@ -1,4 +1,4 @@
-from src.utils.utils import print_message
+from utils.utils import print_message
 
 
 def sumatory(num1, num2):
