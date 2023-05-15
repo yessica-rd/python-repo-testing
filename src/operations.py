@@ -1,6 +1,11 @@
 # from src.operations.divide import divide
 # from src.operations.multiply import multiply
-# from operations.sumatory import sumatory
+from pathlib import Path
+import sys
+path_root = Path(__file__).parents[2]
+sys.path.append(str(path_root))
+
+from operations.sumatory import sumatory
 
 
 def sum_operation(a, b):
@@ -14,6 +19,3 @@ def sum_operation(a, b):
 
 def hello():
     return "Hello world!"
-
-if __name__ == "__main__":
-    from src.operations.sumatory import sumatory
