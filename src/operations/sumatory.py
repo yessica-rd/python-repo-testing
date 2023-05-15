@@ -5,6 +5,7 @@ os.path.dirname(os.path.abspath("__file__"))
 
 
 def sumatory(num1, num2):
+    print('This is the sumatory function')
     return print_message(num1, num2, '+', num1 + num2)
 
 result = sum(1, 2)
