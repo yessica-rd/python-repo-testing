@@ -7,6 +7,7 @@ os.path.dirname(os.path.abspath("__file__"))
 
 
 def sum_operation(a, b):
+    print('This is the sum_operation function')
     return sumatory(a, b)
 
 # def multiply_operation(a, b):
