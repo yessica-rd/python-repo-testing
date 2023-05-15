@@ -1,9 +1,10 @@
 # from src.operations.divide import divide
 # from src.operations.multiply import multiply
-from operations.sumatory import sumatory
+
 
 import os
 os.path.dirname(os.path.abspath("__file__"))
+from operations.sumatory import sumatory
 
 
 def sum_operation(a, b):
